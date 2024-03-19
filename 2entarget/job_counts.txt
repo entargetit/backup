@@ -1,0 +1,116 @@
+WARNING: Using a password on the command line interface can be insecure.
+# WARNING The --port option is not used in the --diagnostic mode.
+# WARNING: The --user option is only used for the default mode.
+# Source on localhost: ... connected.
+# CAUTION: The diagnostic mode is a best-effort parse of the .frm file. As such, it may not identify all of the components of the table correctly. This is especially true for damaged files. It will also not read the default values for the columns and the resulting statement may not be syntactically correct.
+# Reading .frm file for C:/xampp8.0/htdocs/tanu/entargetit.co.in/2entarget/job_counts.frm:
+# The .frm file is a TABLE.
+# Skipping to header at : 2
+# General Data from .frm file:
+{'IO_SIZE': 86,
+ 'MYSQL_VERSION_ID': 100518,
+ 'avg_row_length': 0,
+ 'charset_low': 0,
+ 'create_options': 9,
+ 'db_create_pack': 2,
+ 'default_charset': 45,
+ 'default_part_eng': 0,
+ 'extra_size': 16,
+ 'frm_file_ver': 5,
+ 'frm_version': 10,
+ 'key_block_size': 0,
+ 'key_info_length': 196,
+ 'key_length': 2461,
+ 'legacy_db_type': 'INNODB',
+ 'length': 3900,
+ 'max_rows': 0,
+ 'min_rows': 0,
+ 'rec_length': 835,
+ 'row_type': 0,
+ 'table_charset': 45,
+ 'tmp_key_length': 2461}
+# Skipping to key data at : 56
+# Reading key part 0.
+# Reading key part 0.
+# Reading key part 0.
+# Reading key part 0.
+# Reading key part 0.
+# Index (key) Data from .frm file:
+{'key_names': ['PRIMARY',
+               'job_counts_pk2',
+               'job_counts_adduser_id_fk',
+               'job_counts_recruiters_id_fk',
+               'job_counts_adduser_id_fk_2'],
+ 'keys': [{'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 0,
+           'key_length': 4,
+           'key_parts': [{'field_num': 1,
+                          'key_part_flag': 0,
+                          'key_type': 6912,
+                          'length': 4,
+                          'offset': 1}],
+           'num_parts': 1},
+          {'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 0,
+           'key_length': 4,
+           'key_parts': [{'field_num': 1,
+                          'key_part_flag': 0,
+                          'key_type': 6912,
+                          'length': 4,
+                          'offset': 1}],
+           'num_parts': 1},
+          {'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 65,
+           'key_length': 4,
+           'key_parts': [{'field_num': 2,
+                          'key_part_flag': 128,
+                          'key_type': 6912,
+                          'length': 4,
+                          'offset': 5}],
+           'num_parts': 1},
+          {'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 65,
+           'key_length': 4,
+           'key_parts': [{'field_num': 3,
+                          'key_part_flag': 128,
+                          'key_type': 6912,
+                          'length': 4,
+                          'offset': 9}],
+           'num_parts': 1},
+          {'algorithm': 0,
+           'block_size': 0,
+           'comment': '',
+           'flags': 65,
+           'key_length': 4,
+           'key_parts': [{'field_num': 7,
+                          'key_part_flag': 128,
+                          'key_type': 6912,
+                          'length': 4,
+                          'offset': 827}],
+           'num_parts': 1}],
+ 'num_key_parts': (5,),
+ 'num_keys': 5}
+# Skipping to default data at : 9f4
+# Skipping to keys at : d38
+# Engine string: InnoDB
+# Partition string: 
+# Skipping to column data at : f1e
+{'com_length': 65380,
+ 'int_length': 29285,
+ 'interval_count': 65396,
+ 'interval_parts': 29557,
+ 'n_length': 24927,
+ 'null_fields': 24420,
+ 'num_cols': 25970,
+ 'pos': 29793,
+ 'unknown': 25701}
+EXCEPTION: unpack requires a string argument of length 1
+ERROR: Cannot read column data.
